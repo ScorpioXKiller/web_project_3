@@ -1,0 +1,34 @@
+.footer__content{
+    background-image: url('../../../images/footer-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92.5vw;
+    height: 57.8125vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+}
+
+.footer__content:hover{
+    background-color: #2A2C2F;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px){
+    .footer__content{
+        width: 100%;
+        height: 746px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__content{
+        width: 100%;
+        height: 254px;
+    }
+    
+}

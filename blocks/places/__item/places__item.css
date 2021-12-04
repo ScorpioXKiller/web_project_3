@@ -1,0 +1,43 @@
+.places__item{
+    display: grid;
+    grid-template-columns: 35.9375vw 1fr;
+    gap: 3.75vw 3.125vw;
+    grid-template-areas: 
+        "title artist"
+        "artwork text"
+}
+
+@media screen and (max-width: 768px) {
+    .places__item{
+        grid-template-columns: 44.270833vw 45.833vw;
+        gap: 5.989583vw 3.64583vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .places__item{      
+        grid-template-columns: 100vw;
+        row-gap: 30px;
+        grid-template-areas: 
+            "title"
+            "artist"
+            "artwork"
+            "text"    
+    }   
+}
+@media screen and (max-width: 540px){
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .places__item{
+        position: relative;      
+        grid-template-columns: 320px;
+        row-gap: 30px;
+        grid-template-areas: 
+            "title"
+            "artist"
+            "artwork"
+            "text"  
+    }   
+}

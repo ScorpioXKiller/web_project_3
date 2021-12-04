@@ -1,0 +1,39 @@
+.intro__title{
+    font-family: 'Inter-Black';
+    max-width: 785px;
+    margin: 0 0 40px 0;
+    font-size: 54px;
+    line-height: 1.074;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro__title{
+        max-width: 78.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title{
+        max-width: 93.75vw;
+        height: 22.65625vw;
+        font-size: 7.03125vw;
+        line-height: 7.552083vw;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .intro__title{
+        height: 106.58px;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__title{
+        min-width: 288px;
+        min-height: 140px;
+        font-size: 32px;
+        line-height: 1.1;;
+    }
+    
+}

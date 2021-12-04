@@ -1,0 +1,26 @@
+.place__artist{
+    max-width: 456px;
+    grid-area: artist;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 540px){
+    .place__artist{
+        max-width: 504px;
+        margin: 0 calc((100% - 460px)/2);
+    } 
+}
+
+@media screen and (max-width: 460px){
+    .place__artist{
+        max-width: 504px;
+        margin: 0 16px;
+    } 
+}
+
+@media screen and (max-width: 320px){
+    .place__artist{
+        max-width: 288px;
+        margin: 0 16px;
+    }
+}

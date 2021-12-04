@@ -1,0 +1,36 @@
+.button-link__text{
+    display: block;
+    padding: 1.015625vw 1.5625vw;
+    font-weight: 600;
+    font-size: 1.40625vw;
+    line-height: 1.71875vw;
+    color: white;
+    text-decoration: none;
+    grid-area: button;
+}
+
+@media screen and (max-width: 768px){
+    .button-link__text{
+        padding: 1.6927083vw 2.604166vw;
+        font-size: 2.34375vw;
+        line-height: 2.864583vw;
+    }   
+}
+
+@media screen and (max-width: 540px){
+    .button-link__text{
+        padding: 13px 40px;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .button-link__text{
+        padding: 13px 40px;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+    
+}

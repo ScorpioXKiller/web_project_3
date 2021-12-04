@@ -1,0 +1,40 @@
+.button-link{
+    width: 19.375vw;
+    height: 3.75vw;
+    border-radius: 4px;
+    background-color: #0278FE;
+    text-align: center;
+}
+
+.button-link:hover{
+    background-color: #0063D2;
+}
+
+@media screen and (max-width: 768px){
+    .button-link{
+        width: 32.29166vw;
+        height: 6.25vw;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .button-link{
+        position: absolute;
+        width: 288px;
+        height: 48px;
+        margin: 0 calc((100% - 288px)/2);
+        bottom: -75px
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .button-link{
+        width: 288px;
+        height: 48px;
+        margin: 0 16px;
+        position: absolute;
+        bottom: -75px;
+    }
+}
+

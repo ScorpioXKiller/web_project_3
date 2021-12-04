@@ -1,0 +1,14 @@
+.footer__paragraph{
+    width: 280px;
+    margin: 32px auto;
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__paragraph{
+        margin: 20px auto;
+        font-size: 14px;
+        line-height: 1.143;
+    }
+}

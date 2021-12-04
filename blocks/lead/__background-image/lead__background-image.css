@@ -1,0 +1,13 @@
+.lead__background-image{
+    width: 76.875vw;
+    background-color: black;
+    mix-blend-mode: luminosity;
+}
+
+@media screen and (max-width: 1000px){
+    .lead__background-image{
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,20 @@
+.intro{
+    margin: 0;
+    padding: 7.1875vw 0 9.21875vw calc((100% - 76.875vw) / 2);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px){
+    .intro{
+        padding: 88px 24px 90px;
+    }
+    
+}
+
+@media screen and (max-width: 665px){
+    .intro{
+        padding: 64px 24px 90px;
+    }
+    
+}

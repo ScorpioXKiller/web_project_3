@@ -1,0 +1,18 @@
+.place__description{
+    max-width: 37.8125vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .place__description{
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+  .place__description{
+      max-width: 540px;
+  }
+}
