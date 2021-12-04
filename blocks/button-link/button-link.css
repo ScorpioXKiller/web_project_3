@@ -23,7 +23,7 @@
         width: 288px;
         height: 48px;
         margin: 0 calc((100% - 288px)/2);
-        bottom: -75px
+        bottom: -75px;
     }
     
 }
