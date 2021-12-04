@@ -18,3 +18,5 @@ From Homeland to Homeland - is an one page website that showcases the hometowns 
 3. BEM methodology
 4. Responsive-adaptive markup.
 5. VS Code IDE
+
+* [Link to the project on GitHub Pages](https://scorpioxkiller.github.io/web_project_3/index.html)  
