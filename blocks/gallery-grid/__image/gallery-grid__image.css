@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 804px) {
     .gallery-grid__image{
-       width: 45.833vw
+       width: 45.833vw;
     }
 }
 
