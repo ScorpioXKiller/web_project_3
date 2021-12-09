@@ -1,5 +1,12 @@
 .button-link__text_size_small{
-    padding: 13px 20px;
-    font-size: 18px;
+    padding: 1.015625vw 1.5625vw;
+    font-size: 1.40625vw;
     line-height: 1.22;
+}
+
+@media screen and (max-width: 1280px) {
+    .button-link__text_size_small{
+        padding: 13px 20px;
+        font-size: 18px;
+    }
 }

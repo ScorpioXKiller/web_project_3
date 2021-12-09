@@ -1,16 +1,16 @@
 .gallery-grid{
     max-width: 92.5vw;
     margin: 0 auto;
-    padding: 0 0 92px 0;
+    padding: 0 0 7.1875vw 0;
     display: grid;
     gap: 1.25vw;
     grid-template-columns: repeat(4, 1fr);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 804px) {
     .gallery-grid{
         max-width: 93.75vw;
-        padding-bottom: 88px;
+        padding-bottom: 11.45833vw;
         gap: 2.0833vw;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -18,8 +18,9 @@
 
 @media screen and (max-width: 320px) {
     .gallery-grid{
-        max-width: 288px;
-        padding-bottom: 62px;
+        min-width: 288px;
+        padding: 0 16px 62px;
+        gap: 12px;
         grid-template-columns: repeat(1, 1fr);
     }
 }

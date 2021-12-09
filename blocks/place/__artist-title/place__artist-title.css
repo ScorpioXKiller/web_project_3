@@ -1,9 +1,23 @@
 .place__artist-title{
-    margin: 0 0 8px 0;
+    margin: 0 0 .625vw 0;
     font-weight: inherit;
-    font-size: 12px;
+    font-size: .9375vw;
     line-height: 1.25;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #AAAAAA;
+}
+
+@media screen and (max-width: 1280px) {
+    .place__artist-title{
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__artist-title{
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
 }

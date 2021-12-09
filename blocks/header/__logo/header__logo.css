@@ -1,23 +1,27 @@
 .header__logo{
-    max-width: 270px;
-    max-height: 70px;
+    min-width: 21.09375vw;
     margin: 0 auto;
-    padding-top: 34px;
+    padding-top: 2.65625vw;
     display: block;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 1280px){
     .header__logo{
-        max-width: 230px;
+        max-width: 270px;
+        padding-top: 34px;
     }
-    
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo{
+        max-width: 35.15625vw;
+        padding-top: 4.4270833vw;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .header__logo{
-        max-width: 200px;
-        max-height: 51.85px;
+        min-width: 200px;
         padding-top: 20px;
     }
-    
 }

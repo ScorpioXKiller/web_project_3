@@ -1,32 +1,22 @@
 .place__image{
-    max-width: 35.9375vw;
-    max-height: 100vh;
-    margin-bottom: 3.75vw;
+    width: 100%;
+    grid-area: image;
 }
 
-.place__image:hover{
-    background-color: #2A2C2F;
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 804px){
     .place__image{
-        max-width: 44.27083vw;
-        max-height: 44.27083vw;
-        margin-bottom: 6.25vw;
+        min-width: 100%;
     }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 648px) {
     .place__image{
-        margin: 0 calc((100% - 460px) / 2);
         max-width: 100%;
-        max-height: 100%;
     }
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 320px){
     .place__image{
-        margin: 0;
-    }
+        margin-bottom: 0;
+    } 
 }

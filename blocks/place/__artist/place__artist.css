@@ -1,26 +1,25 @@
 .place__artist{
-    max-width: 456px;
+    max-width: 35.625vw;
     grid-area: artist;
     align-self: flex-end;
 }
 
-@media screen and (max-width: 540px){
-    .place__artist{
-        max-width: 504px;
-        margin: 0 calc((100% - 460px)/2);
-    } 
+@media screen and (max-width: 1280px) {
+    .place__artist-title{
+        max-width: 456px;
+    }
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 804px) {
     .place__artist{
-        max-width: 504px;
-        margin: 0 16px;
-    } 
+        max-width: 316px;
+    }
+    
 }
 
 @media screen and (max-width: 320px){
     .place__artist{
-        max-width: 288px;
+        min-width: 288px;
         margin: 0 16px;
     }
 }

@@ -1,5 +1,24 @@
 .place__artist-name{
     margin: 0;
-    font-size: 18px;
+    font-size: 1.40625vw;
     line-height: 1.2;
+}
+
+@media screen and (max-width: 1280px) {
+    .place__artist-name{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .place__artist-name{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__artist-name{
+        font-size: 18px;
+        line-height: 1.2;
+    }
 }

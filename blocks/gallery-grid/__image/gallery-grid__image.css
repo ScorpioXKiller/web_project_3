@@ -3,19 +3,14 @@
     margin: 0;
 }
 
-.gallery-grid__image:hover{
-    background-color: #2A2C2F;
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 804px) {
     .gallery-grid__image{
-        width: 45.833333vw;
+       width: 45.833vw
     }
 }
 
 @media screen and (max-width: 320px) {
     .gallery-grid__image{
-        width: 288px;
+        min-width: 100%;
     }
 }

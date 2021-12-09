@@ -6,33 +6,34 @@
     font-weight: 900;
     line-height: 1.05;
     grid-area: title;
+    align-self: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .place__title{
-        max-width: 340px;
-        font-size: 32px;
-        line-height: 1.1;
+        max-width: 460px;
+        font-size: 72px;
     }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 804px) {
     .place__title{
-        max-width: 504px;
-        margin: 0 calc((100% - 460px)/2);
-    } 
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 1.1; 
+    }
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 648px) {
     .place__title{
-        max-width: 504px;
-        margin: 0 16px;
-    } 
+        font-size: 32px;
+    }
 }
 
 @media screen and (max-width: 320px){
     .place__title{
-        max-width: 288px;
+        min-width: 90%;
         margin: 0 16px;
+        font-size: 32px;
     }
 }

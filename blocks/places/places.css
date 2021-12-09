@@ -1,30 +1,52 @@
 .places{
     max-width: 77.109375vw;
-    margin: 0 11.5625vw 92px;
+    margin: 0 11.5625vw 7.1875vw;
     display: flex;
     flex-direction: column;
-    gap: 6.25vw;
+    row-gap: 6.25vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px){
     .places{
-        max-width: 720px;
-        margin: 0 24px 92px;
-        row-gap: 72px;
+        max-width: 987px;
+        margin: 0 148px 92px;
+        row-gap: 80px;
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1100px) {
     .places{
-        max-width: 540px;
-        margin: 0 0 142px;
-        row-gap: 130px;
+        margin: 0 calc((100vw - 804px) / 2) 92px;
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .places{
+        max-width: 720px;
+        margin: 0 calc((100vw - 720px) / 2) 64px;
+        row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .places{
+        max-width: 648px;
+        margin-left: calc((100vw - 648px) / 2);
+        margin-right: calc((100vw - 648px) / 2);
+    }
+}
+
+@media screen and (max-width: 648px){
+    .places{
+        max-width: 90%;
+        margin-right: calc((100vw - 90%) / 2);
+        margin-left: calc((100vw - 90%) / 2);
     }
 }
 
 @media screen and (max-width: 320px) {
     .places{
-        max-width: 320px;
-        row-gap: 128px;
+        min-width: 320px;
+        margin: 0 0 64px;
     }   
 }

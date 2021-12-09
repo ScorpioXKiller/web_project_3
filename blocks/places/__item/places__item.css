@@ -4,37 +4,41 @@
     gap: 3.75vw 3.125vw;
     grid-template-areas: 
         "title artist"
-        "artwork text";
+        "image description"
+        "button description"
+        ". description";
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .places__item{
-        grid-template-columns: 44.270833vw 45.833vw;
-        gap: 5.989583vw 3.64583vw;
+        grid-template-columns: 460px 1fr;
+        gap: 48px 40px;
+    }    
+}
+
+@media screen and (max-width: 804px) {
+    .places__item{
+        grid-template-columns: 340px 1fr;
+        gap: 46px 28px;
     }
 }
 
-@media screen and (max-width: 540px) {
-    .places__item{      
-        grid-template-columns: 100vw;
-        row-gap: 30px;
+@media screen and (max-width: 648px)
+{
+    .places__item{
+        grid-template-columns: 100%;
         grid-template-areas: 
-            "title"
-            "artist"
-            "artwork"
-            "text";    
-    }   
+        "title"
+        "artist"
+        "image"
+        "description"
+        "button";
+    }
 }
 
 @media screen and (max-width: 320px) {
     .places__item{
-        position: relative;
-        grid-template-columns: 320px;
+        grid-template-columns: 100%;
         row-gap: 30px;
-        grid-template-areas: 
-            "title"
-            "artist"
-            "artwork"
-            "text";  
     }   
 }
