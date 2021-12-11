@@ -1,19 +1,12 @@
 .button-link__text{
-    display: block;
-    padding: 1.015625vw 1.5625vw;
+    padding: 13px 20px;
     font-weight: 600;
-    font-size: 1.40625vw;
+    font-size: 18px;
     line-height: 1.22;
+    display: block;
     color: white;
     text-decoration: none;
     grid-area: button;
-}
-
-@media screen and (max-width: 1280px) {
-    .button-link__text{
-        padding: 13px 20px;
-        font-size: 18px;
-    }    
 }
 
 @media screen and (max-width: 320px){

@@ -1,19 +1,10 @@
 .footer__author{
-    max-width: 12.1875vw;
-    margin: 7.1875vw auto 0;
-    padding-bottom: 1.875vw;
-    font-size: 1.09375vw;
+    max-width: 165px;
+    margin: 92px auto 0;
+    padding-bottom: 24px;
+    font-size: 14px;
     line-height: 1.143;
     align-self: center;
-}
-
-@media screen and (max-width: 1280px) {
-    .footer__author{
-        max-width: 165px;
-        margin-top: 92px;
-        padding-bottom: 24px;
-        font-size: 14px;
-    }
 }
 
 @media screen and (max-width: 768px){

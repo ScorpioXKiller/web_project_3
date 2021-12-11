@@ -1,13 +1,7 @@
 .place__artist{
-    max-width: 35.625vw;
+    max-width: 456px;
     grid-area: artist;
     align-self: flex-end;
-}
-
-@media screen and (max-width: 1280px) {
-    .place__artist-title{
-        max-width: 456px;
-    }
 }
 
 @media screen and (max-width: 804px) {

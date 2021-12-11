@@ -1,17 +1,11 @@
 .button-link_size_small{
-    min-width: 10.703125vw;
+    max-width: 137px;
     z-index: 1;
-}
-
-@media screen and (max-width: 1280px) {
-    .button-link_size_small{
-        max-width: 137px;
-    }
 }
 
 @media screen and (max-width: 768px) {
     .button-link_size_small{
-        min-width: 17.8385416vw;
+        max-width: 17.8385416vw;
     }
 }
 

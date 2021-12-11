@@ -1,19 +1,12 @@
 .places__item{
     display: grid;
-    grid-template-columns: 35.9375vw 1fr;
-    gap: 3.75vw 3.125vw;
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
     grid-template-areas: 
         "title artist"
         "image description"
         "button description"
         ". description";
-}
-
-@media screen and (max-width: 1280px) {
-    .places__item{
-        grid-template-columns: 460px 1fr;
-        gap: 48px 40px;
-    }    
 }
 
 @media screen and (max-width: 804px) {

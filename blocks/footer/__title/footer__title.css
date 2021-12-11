@@ -1,15 +1,16 @@
 .footer__title{
     margin: 0 auto;
     font-weight: 900;
-    font-size: 5.625vw;
+    font-size: 72px;
     line-height: 1.05;
     z-index: 1;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 665px) {
     .footer__title{
-        font-size: 72px;
+        font-size: 60px;
     }
+    
 }
 
 @media screen and (max-width: 470px) {

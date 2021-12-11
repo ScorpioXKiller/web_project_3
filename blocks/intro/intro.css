@@ -1,31 +1,24 @@
 .intro{
-    margin: 0;
-    padding: 7.1875vw 0 9.21875vw calc((100% - 76.875vw) / 2);
+    max-width: 984px;
+    margin: 92px calc((100vw - 984px) / 2) 118px;
     display: flex;
     flex-direction: column;
 }
 
-@media screen and (max-width: 1280px) {
-    .intro{
-        padding: 92px 0 118px calc((100% - 984px) / 2);
-    }
-}
-
 @media screen and (max-width: 984px) {
     .intro{
-        padding-left: calc((100% - 756.45px) / 2);
-        padding-bottom: 90.7125px;
+        margin: 70.725px calc((100vw - 756.45px) / 2) 90.7125px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro{
-        padding: 11.4583vw 3.125vw 11.71875vw;
+        margin: 11.4583vw 3.125vw 11.71875vw;
     }
 }
 
 @media screen and (max-width: 320px){
     .intro{
-        padding: 64px 16px 90px;
+        margin: 64px 16px 90px;
     }
 }

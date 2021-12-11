@@ -1,17 +1,10 @@
 .intro__paragraph{
-    max-width: 56.25vw;
+    max-width: 720px;
     margin: 0;
-    font-size: 1.25vw;
+    font-size: 16px;
     line-height: 1.625;
     font-weight: normal;
     font-style: normal;
-}
-
-@media screen and (max-width: 1280px) {
-    .intro__paragraph{
-        max-width: 720px;
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 768px){

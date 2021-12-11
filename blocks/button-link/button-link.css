@@ -1,5 +1,6 @@
 .button-link{
-    max-width: 19.375vw;
+    max-width: 248px;
+    min-height: 48px;
     border-radius: 4px;
     background-color: #0278FE;
     text-align: center;
@@ -10,16 +11,9 @@
     background-color: #0063D2;
 }
 
-@media screen and (max-width: 1280px) {
-    .button-link{
-        max-width: 248px;
-    }
-}
-
 @media screen and (max-width: 320px){
     .button-link{
         min-width: 90%;
-        height: 48px;
         margin: 0 16px;
     }
 }

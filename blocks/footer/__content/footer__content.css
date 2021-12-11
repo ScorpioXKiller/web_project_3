@@ -2,8 +2,8 @@
     background-image: url('../../../images/footer-background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 92.5vw;
-    min-height: 57.8125vw;
+    max-width: 1184px;
+    min-height: 740px;
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    row-gap: 2.5vw;
+    row-gap: 32px
 }
 
 .footer__content:hover .footer__overlay{
@@ -22,7 +22,6 @@
     .footer__content{
         max-width: 100vw;
         min-height: 97.135416vw;
-        row-gap: 32px;
     }
 }
 

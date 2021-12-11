@@ -1,11 +1,21 @@
 .gallery-grid__image{
-    width: 22.1875vw;
+    max-width: 284px;
     margin: 0;
+}
+
+.gallery-grid__image:hover{
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 1280px) {
+    .gallery-grid__image{
+       max-width: 22.1875vw;
+    }
 }
 
 @media screen and (max-width: 804px) {
     .gallery-grid__image{
-       width: 45.833vw;
+       max-width: 45.833vw;
     }
 }
 
