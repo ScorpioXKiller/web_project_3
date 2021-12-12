@@ -1,10 +1,4 @@
 .button-link_size_small{
-    max-width: 137px;
+    min-width: 137px;
     z-index: 1;
-}
-
-@media screen and (max-width: 320px) {
-    .button-link_size_small{
-        min-width: 137px;
-    }
 }
