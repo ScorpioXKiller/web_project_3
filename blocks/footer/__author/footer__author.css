@@ -1,5 +1,5 @@
 .footer__author{
-    max-width: 165px;
+    max-width: max-content;
     margin: 92px auto 0;
     padding-bottom: 24px;
     font-size: 14px;

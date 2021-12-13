@@ -7,10 +7,3 @@
     text-transform: uppercase;
     color: #AAAAAA;
 }
-
-@media screen and (max-width: 320px) {
-    .place__artist-title{
-        margin-bottom: 8px;
-        font-size: 12px;
-    }
-}

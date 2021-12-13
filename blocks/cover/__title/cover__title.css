@@ -1,4 +1,4 @@
-.footer__title{
+.cover__title{
     margin: 0 auto;
     font-weight: 900;
     font-size: 72px;
@@ -7,20 +7,20 @@
 }
 
 @media screen and (max-width: 665px) {
-    .footer__title{
+    .cover__title{
         font-size: 60px;
     }
     
 }
 
 @media screen and (max-width: 470px) {
-    .footer__title{
+    .cover__title{
         font-size: 47px;
     }
 }
 
 @media screen and (max-width: 320px){
-    .footer__title{
+    .cover__title{
         font-size: 32px;
         line-height: 1.1;
     }
