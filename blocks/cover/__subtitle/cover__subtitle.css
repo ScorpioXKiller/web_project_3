@@ -1,4 +1,4 @@
-.footer__subtitle{
+.cover__subtitle{
     max-width: 280px;
     margin: 0 auto;
     padding: 0;
@@ -9,8 +9,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .footer__subtitle{
-        min-width: 280px;
+    .cover__subtitle{
         font-size: 14px;
         line-height: 1.143;
     }

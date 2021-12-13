@@ -10,14 +10,11 @@
 @media screen and (max-width: 768px){
     .intro__paragraph{
         max-width: 100%;
-        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 320px){
     .intro__paragraph{
         min-width: 288px;
-        font-size: 16px;
-        line-height: 1.625;
     }
 }

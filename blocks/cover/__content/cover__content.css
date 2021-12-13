@@ -1,7 +1,8 @@
-.footer__content{
+.cover__content{
     background-image: url('../../../images/footer-background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
@@ -14,19 +15,15 @@
     row-gap: 32px;
 }
 
-.footer__content:hover .footer__overlay{
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 768px){
-    .footer__content{
+    .cover__content{
         max-width: 100vw;
         min-height: 97.135416vw;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .footer__content{
+    .cover__content{
         min-width: 320px;
         min-height: 254px;
         row-gap: 16px;

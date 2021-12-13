@@ -1,4 +1,37 @@
 .place{
-    max-width: 100%;
-    position: relative;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 48px 40px;
+    grid-template-areas: 
+        "title artist"
+        "image description"
+        "button description";
+}
+
+@media screen and (max-width: 804px) {
+    .place{
+        grid-template-columns: 340px 1fr;
+        gap: 46px 28px;
+    }
+}
+
+@media screen and (max-width: 648px)
+{
+    .place{
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "title"
+        "artist"
+        "image"
+        "description"
+        "button";
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place{
+        grid-template-columns: 100%;
+        row-gap: 30px;
+    }   
 }
