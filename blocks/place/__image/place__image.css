@@ -3,10 +3,6 @@
     grid-area: image;
 }
 
-.place__image:hover{
-    opacity: 0.3;
-}
-
 @media screen and (max-width: 804px){
     .place__image{
         min-width: 100%;

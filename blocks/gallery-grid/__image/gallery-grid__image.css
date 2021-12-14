@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-.gallery-grid__image:hover{
-    opacity: 0.3;
-}
-
 @media screen and (max-width: 1280px) {
     .gallery-grid__image{
        width: 22.1875vw;
