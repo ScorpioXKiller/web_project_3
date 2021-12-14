@@ -3,6 +3,11 @@
     height: 48px;
     border-radius: 4px;
     background-color: #0278FE;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: white;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
